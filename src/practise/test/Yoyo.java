@@ -1,3 +1,5 @@
+package practise.test;
+
 public class Yoyo {
 
     public static void main(String[] args) {

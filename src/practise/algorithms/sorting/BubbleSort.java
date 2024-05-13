@@ -1,6 +1,4 @@
-package algorithms.sorting;
-
-import java.util.Arrays;
+package practise.algorithms.sorting;
 
 public class BubbleSort {
 

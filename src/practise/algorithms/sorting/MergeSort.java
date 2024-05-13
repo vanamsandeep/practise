@@ -1,4 +1,4 @@
-package algorithms.sorting;
+package practise.algorithms.sorting;
 
 public class MergeSort {
     public static void main(String[] args) {
@@ -12,8 +12,10 @@ public class MergeSort {
     }
 
     private static void mergeSort(int[] inputArray) {
+        //Merge sort works on divide and conquer
         if(inputArray.length <2)
             return;
+
         int length = inputArray.length;
         //Step 1: find the mid index
         int midIndex = length/2;
@@ -39,6 +41,7 @@ public class MergeSort {
         int rightHalfLength = rightHalfArray.length;
 
         int i=0, j=0, k=0;
+
         while(i <leftHalfLength && j< rightHalfLength){
             if(leftHalfArray[i] <= rightHalfArray[j]){
                 inputArray[k] = leftHalfArray[i];
@@ -49,16 +52,19 @@ public class MergeSort {
             }
             k++;
         }
+
         while(i < leftHalfLength){
             inputArray[k]= leftHalfArray[i];
             i++;
             k++;
         }
+
         while(j < rightHalfLength){
             inputArray[k]= rightHalfArray[j];
             j++;
             k++;
         }
+
     }
 
     private static void print(int[] arr) {

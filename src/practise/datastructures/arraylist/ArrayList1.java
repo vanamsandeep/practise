@@ -1,21 +1,22 @@
-package datastructures.arraylist;
+package practise.datastructures.arraylist;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayList {
+public class ArrayList1 {
 
     public static void main(String[] args) {
 
-        java.util.ArrayList<Integer> numList = new java.util.ArrayList<>(Arrays.asList(1,3,4,5));
+        ArrayList<Integer> numList = new ArrayList<>(Arrays.asList(1,3,4,5));
         spofArray(numList);
 
     }
 
-    static void spofArray(java.util.ArrayList<Integer> num){
+    static void spofArray(ArrayList<Integer> num){
 
             for (int i =0; i<num.size() ; i++){
                 System.out.println("");
-                for(int j=i+1; j< num.size(); j++){
+                for(int j=0; j< num.size(); j++){
                     System.out.print(num.get(i)+""+num.get(j) +" ");
                 }
 

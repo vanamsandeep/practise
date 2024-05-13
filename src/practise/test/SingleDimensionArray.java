@@ -1,3 +1,5 @@
+package practise.test;
+
 public class SingleDimensionArray {
   int arr[] = null;
 
