@@ -1,4 +1,4 @@
-package practise.algorithms.sorting;
+package training.algorithms.sorting;
 
 import java.util.Random;
 

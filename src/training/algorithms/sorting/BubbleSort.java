@@ -1,4 +1,4 @@
-package practise.algorithms.sorting;
+package training.algorithms.sorting;
 
 public class BubbleSort {
 

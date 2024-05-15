@@ -1,4 +1,4 @@
-package practise.test;
+package training.test;
 
 public class Yoyo {
 

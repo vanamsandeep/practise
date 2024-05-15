@@ -1,4 +1,4 @@
-package practise.datastructures.arraylist;
+package training.datastructures.arraylist;
 
 import java.util.Arrays;
 
